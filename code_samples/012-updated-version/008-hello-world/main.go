@@ -38,21 +38,21 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	fmt.Println("Assalamu alaykum guys! This a totally awesome course to follow. May Allah make our journey easy! Ameen")
 	foo()
 	fmt.Println("Something more...")
-	for i:=0;i<10;i++{
-		if i%2==0{
-			fmt.Printf("%v is an even number bro., learn math\n",i)
+	for i := 0; i < 10; i++ {
+		if i%2 == 0 {
+			fmt.Printf("%v is an even number bro., learn math\n", i)
 		}
 	}
 	bar()
 }
-func foo(){
+func foo() {
 	fmt.Println("I am in foo() baby... ")
 
 }
-func bar(){
+func bar() {
 	fmt.Println("Exiting main()...")
 }

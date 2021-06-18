@@ -8,10 +8,10 @@ func main() {
 	fmt.Println(n)
 }
 */
-func main(){
+func main() {
 	n, _ := myPrint("Yeah bro I do not need fmt anymore...")
-	myPrint(n," bytes printed")
+	myPrint(n, " bytes printed")
 }
-func myPrint(a ... interface{})( int, error){
+func myPrint(a ...interface{}) (int, error) {
 	return fmt.Println(a)
 }
